@@ -1,0 +1,30 @@
+<!--pages/turnpage/turnpage.wxml-->
+<view calss="v-main">
+
+<view class="v-header">
+        ------------------------------
+</view>
+
+
+<view class="v-body" style="{{canvas_tp_style}}">
+
+      
+
+<scroll-view scroll-y="true" style="{{canvas_tp_style}}" class="v-list"   scroll-into-view="{{toView}}" >
+        <block  wx:for="{{names}}">
+                <view id="{{item}}" class="scroll-view-item">{{item}}</view>
+        </block>
+    
+</scroll-view>
+
+
+        <canvas canvas-id="canvas_tp"  class="canvas-tp"  style="{{canvas_tp_style}}" bindtouchstart="touchstart"                                       bindtouchmove="touchmove"  bindtouchend="touchend" />
+</view>
+
+
+<view>
+
+</view>
+
+</view>
+

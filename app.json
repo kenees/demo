@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/about/about",
+    "pages/waveimage/waveimage",
+    "pages/loveparticle/loveparticle",
+    "pages/loveparticle2/loveparticle2",
+    "pages/flappybird/flappybird",
+    "pages/gracefulindex/gracefulindex",
+    "pages/me/me",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "whitesmoke",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#f0f0f0",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "List",
+        "iconPath": "images/nav.png",
+        "selectedIconPath": "images/nav_h.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "About",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me_h.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

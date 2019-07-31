@@ -1,0 +1,4 @@
+<!--pages/cooltimer/cooltimer.wxml-->
+<view class="v-cooltimer">
+        <canvas canvas-id="canvas_ct" style="width:{{canvas_ct_width}}px;height:{{canvas_ct_height}}px" class="canvas-ct"/>
+</view>

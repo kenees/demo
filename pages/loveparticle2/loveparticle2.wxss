@@ -1,0 +1,12 @@
+/* pages/cooltimer/cooltimer.wxss */
+.v-cooltimer{
+  
+}
+.canvas-ct{
+    /* height: 220px;
+    width: 300px; */
+    background-color: whitesmoke;
+
+}
+
+  

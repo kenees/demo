@@ -1,0 +1,47 @@
+/* pages/turnpage/turnpage.wxss */
+
+
+
+.v-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.v-body{
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: whitesmoke;
+   
+}
+.canvas-tp{
+    position: absolute;
+    right: 0px;
+    width: 80px;
+    background-color: transparent;
+    z-index: 1;
+
+}
+
+
+.v-list{
+    background-color: beige;
+    width: 90%;
+}
+
+.scroll-view-item{
+    font-size: 20px;
+    margin: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+
+
+.v-header{
+    height: 50px;
+    text-align: center;
+    color: deepskyblue;
+    line-height: 50px;
+}
