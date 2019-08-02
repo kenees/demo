@@ -1,10 +1,11 @@
 {
   "pages": [
+    "pages/loveparticle2/loveparticle2",
     "pages/main/main",
     "pages/about/about",
     "pages/waveimage/waveimage",
     "pages/loveparticle/loveparticle",
-    "pages/loveparticle2/loveparticle2",
+
     "pages/flappybird/flappybird",
     "pages/gracefulindex/gracefulindex",
     "pages/me/me",

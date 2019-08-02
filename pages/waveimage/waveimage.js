@@ -1,10 +1,9 @@
 // pages/waveimage/waveimage.js
 var ctx=null;
 var factor={
-              speed:.008,  // 运动速度，值越小越慢
-              t:0    //  贝塞尔函数系数
-            };
-
+  speed:.008,  // 运动速度，值越小越慢
+  t:0    //  贝塞尔函数系数
+};
 
 var timer = null;  // 循环定时器
 
